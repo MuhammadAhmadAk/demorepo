@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+/* Navbar Styling */
+.custom-navbar {
+  border-bottom: 2px solid #dcdcdc;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #e0e0e0 !important;
+}
+
+.nav-dropdown .dropdown-item {
+  transition: background-color 0.3s ease;
+}
+
+.nav-dropdown .dropdown-item:hover {
+  background-color: #007bff;
+  color: #fff !important;
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: 2px solid #007bff;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+/* HomePage.css */
+
+/* Hero Section */
+.hero-section {
+  background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-button {
+  font-size: 1.25rem;
+}
+
+/* Featured Recipes Section */
+.featured-recipes {
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.recipe-card {
+  margin-bottom: 1.5rem;
+}
+
+/* Blog Posts Section */
+.blog-posts {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.blog-card {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 0;
+  background-color: #343a40;
+  color: white;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.footer-link {
+  color: #adb5bd;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* BlogCard.css */
+.blog-card {
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.blog-card img {
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-card .card-body {
+  padding: 1.25rem;
+}
+
+.blog-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
